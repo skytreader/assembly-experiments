@@ -1,4 +1,4 @@
-; vim: set ft=asm:
+// vim: set ft=asm:
 /*
 Surprise, surprise! Nothing here at all except some
 [assembler directives](http://web.mit.edu/gnu/doc/html/as_7.html).
