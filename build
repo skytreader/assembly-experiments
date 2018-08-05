@@ -1,0 +1,8 @@
+# vim: set ft=sh:
+
+if [ ! -d builds ]; then
+    mkdir builds
+fi
+
+buildname="$(echo $1 | awk -F '/' '{print $NF}' | awk -F '.' '{print $1}')"
+gcc -o "builds/$buildname" $1
